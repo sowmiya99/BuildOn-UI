@@ -1,8 +1,8 @@
-jobs.yaml
+job.yaml
 - job:
-    name: Basic example1234
+    name: TestJob
     project-type: freestyle
-    description: 'A basic example of a `jjb` job that echos "Hello world and cats out /etc/password"'
+    description: 'Example job'
     builders:
         - shell: |
             echo 'Hello world!'
