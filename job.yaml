@@ -1,9 +1,0 @@
-job.yaml
-- job:
-    name: TestJob
-    project-type: freestyle
-    description: 'Example job'
-    builders:
-        - shell: |
-            echo 'Hello world!'
-            cat /etc/passwd
