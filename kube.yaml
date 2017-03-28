@@ -2,3 +2,6 @@
     name: 'TestJob'
     project-type: freestyle
     description: 'Example job'
+    builders:
+      - shell:
+          echo 'Hello'
