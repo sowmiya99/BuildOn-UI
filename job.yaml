@@ -5,5 +5,5 @@ jobs.yaml
     description: 'A basic example of a `jjb` job that echos "Hello world and cats out /etc/password"'
     builders:
         - shell: |
-            echo 'Hello world!'
+            echo 'Hello world!!'
             cat /etc/passwd
