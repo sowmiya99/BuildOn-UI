@@ -5,6 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'BuildOn test'
+                echo 'Master Branch'
             }
         }
         
