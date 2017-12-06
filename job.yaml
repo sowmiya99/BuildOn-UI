@@ -1,5 +1,5 @@
 - job:
-    name: 'childBranch'
+    name: 'childBranch....'
     project-type: 'freestyle'
     description: 'Example job'
     builders:
