@@ -6,7 +6,7 @@ pipeline {
             steps {
                 echo 'BuildOn test'
                 echo 'Master Branch'
-                echo 'Child Branch###'
+                echo 'Child Branc'
             }
         }
         
