@@ -1,6 +1,6 @@
 - job:
     name: 'BuildJob1'
-    project-type: 'freestyle'
+    project-type: 'freestyle2'
     description: 'Example job'
     builders:
       - shell:
