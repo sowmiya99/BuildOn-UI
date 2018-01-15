@@ -1,5 +1,5 @@
 - job:
-    name: 'BuildJob'
+    name: 'BuildJob1'
     project-type: 'freestyle'
     description: 'Example job'
     builders:
