@@ -1,3 +1,5 @@
-def call() {
-      echo 'BlaBla'
+def firstTest() {
+    // stuff here
+    sh 'date'
+    sh 'uname -a'
 }
