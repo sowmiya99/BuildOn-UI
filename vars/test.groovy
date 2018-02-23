@@ -1,4 +1,5 @@
-def firstTest() {
+node {
+    def firstTest() {
     // stuff here
     sh 'date'
     sh 'uname -a'
@@ -9,3 +10,4 @@ def testTwo() {
     echo 'Im Test two'
 }
 return this
+}
