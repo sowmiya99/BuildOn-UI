@@ -1,4 +1,4 @@
-node {
+def call(body) {
       
     stage ('Build') {
       
