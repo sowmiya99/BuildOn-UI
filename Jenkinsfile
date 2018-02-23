@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('Build') {
+        stage('Builddd') {
             steps {
                 echo 'BuildOn test'
                 echo 'Master Branch'
