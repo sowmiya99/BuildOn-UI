@@ -4,4 +4,5 @@ node {
     sh 'date'
     sh 'uname -a'
 }
+    return this
 }
