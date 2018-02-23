@@ -1,3 +1,3 @@
-def call(args) {
-      sh 'date'
+def call() {
+      echo 'BlaBla'
 }
