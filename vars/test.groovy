@@ -1,5 +1,7 @@
-def firstTest() {
+node {
+    def firstTest() {
     // stuff here
     sh 'date'
     sh 'uname -a'
+}
 }
