@@ -1,9 +1,7 @@
 node {
-    def =firstTest() 
-    stage ('Build') {
-        
-    // stuff here
-    sh 'date'
+    def firstTest() {
+    
+        sh 'date'
     sh 'uname -a'
 }
     }
