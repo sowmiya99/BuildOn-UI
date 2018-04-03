@@ -20,7 +20,7 @@ def call(body) {
                  }
                 stage ('Tests') {
                     parallel 'static': {
-                        sh "echo 'shell scripts to run static tests...'"
+                        sh "eho 'shell scripts to run static tests...'"
                     },
                     'unit': {
                         sh "echo 'shell scripts to run unit tests...'"
