@@ -10,9 +10,12 @@ def call(body) {
             deleteDir()
 
             try {
-                stage ('Clone') {
+                 if (config.projectName == 'true') {
+                                          
+                        stage ('Clone') {
                     checkout scm
                 }
+                 }
                 stage ('Build') {
                     sh "echo 'building ${config.projectName} ...'"
                 }
