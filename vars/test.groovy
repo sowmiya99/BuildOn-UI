@@ -9,16 +9,15 @@ def call(body) {
             // Clean workspace before doing anything
             deleteDir()
 
-            try {
-                 if (config.projectName == 'true') {
-                                          
-                        stage ('Clone') {
+            try {                    
+                    stage ('Clone') {
                     checkout scm
                 }
-                 }
+                 if (config.projectName == 'true') {
                 stage ('Build') {
                     sh "echo 'building ${config.projectName} ...'"
                 }
+                 }
                 stage ('Tests') {
                     parallel 'static': {
                         sh "echo 'shell scripts to run static tests...'"
