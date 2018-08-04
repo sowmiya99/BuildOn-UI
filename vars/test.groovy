@@ -6,7 +6,7 @@ def call(body) {
         body()
 
         node {
-            // Clean workspace before doing anything
+            // Clean workspace before doing anything ---Edited file
             deleteDir()
 
             try {                    
